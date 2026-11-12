@@ -1,0 +1,29 @@
+# PyInstaller output
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Old single-file version, kept locally only as reference
+_old/
+
+# Local tool settings
+.claude/
+.vscode/
+.idea/
+
+# NEVER commit session data / exports - they give access to the accounts
+Accounts/
+*.auc
+*.riotacc
+*.zip
+session.bin
+RiotGamesPrivateSettings.yaml
+state.json
+config.json
+*.log
